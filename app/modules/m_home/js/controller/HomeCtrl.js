@@ -1,7 +1,7 @@
 app.controller('HomeCtrl', ['$scope', '$rootScope', '$state', 'dialog', 'StorageConfig',function ($scope, $rootScope, $state, dialog, StorageConfig) {
     window.headerConfig = {
-        enableTitle: false,
         enableBack: false,
+        title: 'app',
         enableRefresh: false,
     };
 

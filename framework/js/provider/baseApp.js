@@ -1,4 +1,4 @@
-var app = angular.module('meb-app', [
+var app = angular.module('app', [
 	'ui.router',
 	'ngDialog',
 	'oc.lazyLoad',

@@ -1,11 +1,7 @@
 app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise('/layout/home');
-        $urlRouterProvider.when('/layout', '/layout/home');
+        $urlRouterProvider.otherwise('/layout/login');
+        $urlRouterProvider.when('/layout', '/layout/login');
         $stateProvider
-                .state('layout.test', {
-                    url: '/test',
-                    templateUrl: 'app/modules/m_test/view/index.html'
-                })
                 .state('layout', {
                     url: '/layout',
                     templateUrl: 'app/modules/m_layout/view/index.html'
